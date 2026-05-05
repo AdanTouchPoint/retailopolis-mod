@@ -33,15 +33,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=2124396274984399&ev=PageView&noscript=1"
-            alt=""
-          />
-        </noscript>
+
         <header className="absolute top-0 w-full flex justify-center py-6 sm:py-8 z-50 pointer-events-none">
           <img
             src="/img/logo.png"
